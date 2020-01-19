@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Objective{
+    height: 100%;
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.Objective h1{
+    padding: 20px;
+    font-size: 3rem;
+}
+
+.Objective .description{
+    padding-top: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+}
+
+.Objective ul{
+    width: 90%;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+
+.Objective li{
+    width: 200px;
+    display: flex;
+    justify-content: center; 
+    /* position: relative; */
+    overflow: visible;
+}
+
+.Objective ul li div{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.Objective .icon{
+    width: 25px;
+}
+
+.Objective li p{
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-size: 1.1rem;
+    margin: 20px 0;
+    opacity: 1;
+}
+
+.Objective li:nth-child(4n+1) p{
+    position: absolute;
+    top: 100%;
+    /* margin-top: 20px; */
+}
+
+.Objective li:nth-child(4n-1) p{
+    position: absolute;
+    bottom: 100%;
+    /* margin-bottom: 20px; */
+}
+
+.Objective li:nth-child(1) p{
+    background-color: rgb(68,172,171);
+}
+.Objective li:nth-child(1) div{
+    background-color: rgb(68,172,171);
+}
+.Objective li:nth-child(3) p{
+    background-color: rgb(76, 210, 219);
+}
+.Objective li:nth-child(3) div{
+    background-color: rgb(76, 210, 219);
+}
+.Objective li:nth-child(5) p{
+    background-color: rgb(48, 83, 238);
+}
+.Objective li:nth-child(5) div{
+    background-color: rgb(48, 83, 238);
+}
+.Objective li:nth-child(7) p{
+    background-color: rgb(175, 88, 246);
+}
+.Objective li:nth-child(7) div{
+    background-color: rgb(175, 88, 246);
+}

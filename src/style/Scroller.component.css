@@ -1,0 +1,15 @@
+.Scoller{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 3fr 1fr;
+    text-align: center;
+    align-items: center;
+}
+
+.Scoller input{
+    width: 100%;
+}
+
+.Scoller .title{
+    justify-self: start;
+}

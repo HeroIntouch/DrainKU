@@ -1,0 +1,8 @@
+.Result h1{
+    text-align: center;
+}
+
+.Result .card{
+    display: flex;
+    flex-direction: row;    
+}

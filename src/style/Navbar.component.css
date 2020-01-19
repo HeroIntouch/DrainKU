@@ -1,0 +1,16 @@
+.NavbarComponent {
+    background-color: rgb(240, 240, 240);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.imgLogohii {
+    width: 4% ;
+    height: 4% ;
+}
+.imgLogoKU {
+    padding-left: 20px;
+    width: 5% ;
+    height: 5% ;
+}

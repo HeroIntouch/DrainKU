@@ -1,0 +1,62 @@
+.GraphVariant h3{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Athiti', sans-serif;
+    font-weight: bold;
+    padding-left : 100px
+}
+.positionText2{
+    padding-left : 190px
+}
+.imgExEvent1-1 {
+    float: left ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50% ;
+    height: 30% ;   
+    padding-left : 100px;
+}
+.imgExEvent1-2 {
+    float: left ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50% ;
+    height: 30% ;   
+    padding-right : 100px;
+}
+.exVariant h3{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Athiti', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 800px;
+}
+.exVariant span{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Athiti', sans-serif;
+    padding-left: 170px;
+    font-size: x-large;
+}
+.exVariant p{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Athiti', sans-serif;
+    font-size: large;
+    padding-left: 220px;
+}

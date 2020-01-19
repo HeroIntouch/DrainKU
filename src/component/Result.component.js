@@ -7,8 +7,8 @@ const Result = () => {
         <div className='Result'>
             <h1>Show Result</h1>
             <div className='card'>
-                <ResultCard />
-                <ResultCard />                
+                <ResultCard place='Kasetsart'/>
+                <ResultCard place='BKA'/>                
             </div>
         </div>
     );

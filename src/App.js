@@ -4,6 +4,8 @@ import GraphVariant from "./component/GraphVariant.component"
 import Navbar from "./component/Navbar.component"
 import Footer from "./component/Footer.component"
 import Problem from "./component/Problem.component"
+import IaunOb from './component/Objective.component';
+import IaunRe from './component/Result.component';
 
 function App() {
 

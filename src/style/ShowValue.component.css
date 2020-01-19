@@ -1,0 +1,16 @@
+.ShowValue{
+    height: 75%;
+    background-color: #00b894;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.ShowValue-middle{
+    background-color: #f9ca24;
+}
+
+.ShowValue-high{
+    background-color: #eb4d4b;
+}

@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/drainku/static/css/main.ae4fe068.chunk.css",
+    "main.js": "/drainku/static/js/main.25d1e011.chunk.js",
+    "main.js.map": "/drainku/static/js/main.25d1e011.chunk.js.map",
+    "runtime-main.js": "/drainku/static/js/runtime-main.524d63e2.js",
+    "runtime-main.js.map": "/drainku/static/js/runtime-main.524d63e2.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/drainku/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.5491bc63.chunk.js": "/drainku/static/js/2.5491bc63.chunk.js",
+    "static/js/2.5491bc63.chunk.js.map": "/drainku/static/js/2.5491bc63.chunk.js.map",
+    "index.html": "/drainku/index.html",
+    "precache-manifest.024835a1a569b54b2f8754fab9e5b323.js": "/drainku/precache-manifest.024835a1a569b54b2f8754fab9e5b323.js",
+    "service-worker.js": "/drainku/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/drainku/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.ae4fe068.chunk.css.map": "/drainku/static/css/main.ae4fe068.chunk.css.map",
+    "static/js/2.5491bc63.chunk.js.LICENSE": "/drainku/static/js/2.5491bc63.chunk.js.LICENSE",
+    "static/media/Event1-1_GraphVariant.jpg": "/drainku/static/media/Event1-1_GraphVariant.a32945e2.jpg",
+    "static/media/Event1-2_GraphVariant.jpg": "/drainku/static/media/Event1-2_GraphVariant.22616034.jpg",
+    "static/media/KUlogo.png": "/drainku/static/media/KUlogo.dcc1996e.png",
+    "static/media/Problem.component.css": "/drainku/static/media/floodAtKU.cebe4c7e.JPG",
+    "static/media/hii_logo.png": "/drainku/static/media/hii_logo.c61ded2b.png",
+    "static/media/mapProblem.jpg": "/drainku/static/media/mapProblem.0e0f23ab.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.524d63e2.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.5491bc63.chunk.js",
+    "static/css/main.ae4fe068.chunk.css",
+    "static/js/main.25d1e011.chunk.js"
+  ]
+}

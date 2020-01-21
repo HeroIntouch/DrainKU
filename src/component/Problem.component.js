@@ -29,8 +29,7 @@ const Problem = props => {
             
             <div className="cardProblem">
             {/* <h1 class="fontDetailProblem">ซึ่งเรามีข้อมูลจากสถานีวัดน้ำท่วมขังรวมทั้งสิ้น 2 สถานีดังนี้</h1> */}
-                <div>
-                 <center><img id="Popover1" type="button" className="sizeMapProblem" src={MapProblem} /></center></div>
+                 <center><img id="Popover1" type="button" className="sizeMapProblem" src={MapProblem} /></center>
                  <Popover placement="right" isOpen={popoverOpen} target="Popover1" toggle={toggle}>
                     <PopoverHeader className="fontProblemData">ข้อมูลจากสถานีวัดน้ำท่วมขัง 2 สถานี</PopoverHeader>
                     <PopoverBody className="fontProblemData">

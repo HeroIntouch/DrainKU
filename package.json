@@ -1,7 +1,7 @@
 {
   "name": "drainku",
   "version": "0.1.0",
-  "homepage": "https://herointouch.github.io/drainku/",
+  "homepage": "https://herointouch.github.io/DrainKU/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.8.3",

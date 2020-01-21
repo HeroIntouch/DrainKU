@@ -1,6 +1,7 @@
 {
   "name": "drainku",
   "version": "0.1.0",
+  "homepage": "https://herointouch.github.io/drainku/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.8.3",
@@ -8,11 +9,8 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
-<<<<<<< HEAD
     "bootstrap": "^4.4.1",
-=======
     "jquery": "^3.4.1",
->>>>>>> f8d89744c89f17bb4dd6a1c8ac5589debc32f7a0
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-icons": "^3.8.0",
@@ -21,6 +19,8 @@
     "reactstrap": "^8.4.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }

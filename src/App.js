@@ -1,11 +1,8 @@
 import React from 'react'
 import { HashRouter, Route , Switch } from 'react-router-dom'
-import GraphVariant from "./component/GraphVariant.component"
+import Home from "./page/Home.page"
 import Navbar from "./component/Navbar.component"
 import Footer from "./component/Footer.component"
-import Problem from "./component/Problem.component"
-import IaunOb from './component/Objective.component';
-import IaunRe from './component/Result.component';
 
 function App() {
 
@@ -15,9 +12,8 @@ return (
       <div>
         <Navbar/>
         <Switch>
-          <Route exact path="/" component={Problem} />
+          <Route exact path="/" component={Home} />
         </Switch>
-        <GraphVariant/>
         <Footer/>
       </div>
     </HashRouter>

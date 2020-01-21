@@ -2,29 +2,42 @@ import React, { useState } from 'react'
 import "../style/Problem.component.css"
 import MapProblem from "../asset/mapProblem.jpg"
 import {
-  Card
+  Card,
+  Form,
+  Row,
+  Col,
+  Button, Popover, PopoverHeader, PopoverBody
 } from 'reactstrap';
 import { MdMailOutline } from 'react-icons/md';
 import { GoGraph } from "react-icons/go";
-import { FiFlag } from "react-icons/fi";
+import { TiLocationOutline } from "react-icons/ti";
 
 
-function Problem() {
+const Problem = props => {
+    const { id, item } = props;
+    const [popoverOpen, setPopoverOpen] = useState(false);
+
+    const toggle = () => setPopoverOpen(!popoverOpen);
     return (
     <div>
         <div className="Problem">
             <div className="problemImg"></div>
         </div>
             <div class="bg-text">
-                <h1 className="fontProblem">ปัญหาที่เกิดขึ้น</h1>
+                <h1 className="fontProblem">ฝนตกหนัก แต่เมื่อไหร่น้ำจะระบายหมด?</h1>
             </div>
+            
             <div className="cardProblem">
+            {/* <h1 class="fontDetailProblem">ซึ่งเรามีข้อมูลจากสถานีวัดน้ำท่วมขังรวมทั้งสิ้น 2 สถานีดังนี้</h1> */}
                 <div>
-                <p class="fontDetailProblem">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ปัญหาที่เกิดขึ้นนั้นคือ น้ำท่วมที่เกิดขึ้นจากฝนตกติดต่อกันเป็นเวลานาน ทำให้การเดินทางนั้นไม่สะดวก
-                 ซึ่งเรามีข้อมูลจากสถานีวัดน้ำท่วมขังรวมทั้งสิ้น 2 สถานีดังนี้</p>
-                 <center><img className="sizeMapProblem" src={MapProblem} /></center>
-                {/* <div style={{height:"500px"}}></div> */}
-                </div>
+                 <center><img id="Popover1" type="button" className="sizeMapProblem" src={MapProblem} /></center></div>
+                 <Popover placement="right" isOpen={popoverOpen} target="Popover1" toggle={toggle}>
+                    <PopoverHeader className="fontProblemData">ข้อมูลจากสถานีวัดน้ำท่วมขัง 2 สถานี</PopoverHeader>
+                    <PopoverBody className="fontProblemData">
+                        <TiLocationOutline/>&nbsp;คลองบางบัว <br/>
+                        <TiLocationOutline/>&nbsp;มหาวิทยาลัยเกษตรศาสตร์  <br/>
+                    </PopoverBody>
+                </Popover>
             </div>
         
     </div>

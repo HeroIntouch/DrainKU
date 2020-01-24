@@ -9,7 +9,7 @@ const Home = (props) => {
     return(
         // <div className='Home'>
         <div>
-            {/* <Result/> */}
+            <Result/>
             <Problem/>
             {/* <Objective/> */}
             <GraphVariant/>

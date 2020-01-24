@@ -1,9 +1,22 @@
+.Result{
+    font-size: 1rem;
+}
+
 .Result h1{
     text-align: center;
-    font-size: 4rem;
+    font-size: 3em;
 }
 
 .Result .card{
+    font-size: 1em;
     display: flex;
     flex-direction: row;    
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 767px){
+    .Result .card{
+        flex-direction: column;
+        justify-content: center;
+    }
 }

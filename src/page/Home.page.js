@@ -10,11 +10,11 @@ const Home = (props) => {
     return(
         // <div className='Home'>
         <div>
-            {/* <Result/> */}
+            <Result/>
             {/* <CarouselPG/> */}
-            {/* <Problem/> */}
+            <Problem/>
             {/* <Objective/> */}
-            <GraphVariant/>
+            {/* <GraphVariant/> */}
         </div>
     );
 }

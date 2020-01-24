@@ -6,7 +6,7 @@ const Result = () => {
     return(
         <div className='Result'>
             <h1>Show Result</h1>
-            <div className='card'>
+            <div className='cards'>
                 <ResultCard place='Kasetsart'/>
                 <ResultCard place='BKA'/>                
             </div>

@@ -1,17 +1,24 @@
+.Problem {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
 .problemImg {
     background-image: url("../asset/floodAtKU.JPG");
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* text-align: center; */
     /* background-image: linear-gradient(90deg, rgba(65,185,119,0.53) 0%, rgba(65,168,147,0.6) 35%, rgba(24,155,172,0.73) 100%),url("../asset/floodAtKU.JPG") no-repeat center center fixed ; */
     /* background-image:
     linear-gradient(to right, rgba(65, 185, 119, 0.8), rgba(65,168,147,0.5), rgba(24,155,172,0.6)),
     url("../asset/floodAtKU.JPG"); */
-    /* -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover; */
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
-    /* text-align: center; */
-    width: 100%;
-    height: 100vh;
+    -o-background-size: cover;
+    /* height: 100vh; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,48 +44,42 @@
     /* background-color: rgb(0,0,0); */
     /* Black w/opacity/see-through */
     /* background-color: rgba(0,0,0, 0.1);  */
+    /* border: 3px solid #f1f1f1; */
+    /* padding: 20px; */
     color: white;
     font-weight: bold;
-    /* border: 3px solid #f1f1f1; */
     position: absolute;
-    top: 43em;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
-    /* padding: 20px; */
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
     text-align: center;
+    width: 100%;
   }
-  /* @media screen and (min-width: 601px) {
-    .Prob-text {
-      font-size: 80px;
+  @media screen and (min-width: 801px) {
+    .fontProblem {
+      font-size: 350%;
     }
   }
   
-  @media screen and (max-width: 600px) {
-    .Prob-text {
-      font-size: 30px;
+  @media screen and (max-width: 800px) {
+    .fontProblem {
+      font-size: 225%;
     }
-  } */
+  }
 .fontProblem {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'PT Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
     font-family: 'Athiti', sans-serif;
     font-weight: bold;
-    font-size: 350%;
+    /* font-size: 350%; */
     /* position: absolute; */
 }
-.popover {
+/* .popover {
     max-width: 400px;
-}
+} */
 .fontProblemData {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'PT Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
     font-family: 'Athiti', sans-serif;
     font-weight: bold;
     font-size: 150%;
@@ -107,11 +108,6 @@
 } */
 
 .fontDetailProblem{
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'PT Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
     font-family: 'Athiti', sans-serif;
     font-weight: bold;
     font-size: larger;

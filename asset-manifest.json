@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/DrainKU/static/css/main.f530ed6a.chunk.css",
-    "main.js": "/DrainKU/static/js/main.c1c1939d.chunk.js",
-    "main.js.map": "/DrainKU/static/js/main.c1c1939d.chunk.js.map",
+    "main.js": "/DrainKU/static/js/main.c888fcfc.chunk.js",
+    "main.js.map": "/DrainKU/static/js/main.c888fcfc.chunk.js.map",
     "runtime-main.js": "/DrainKU/static/js/runtime-main.14c9a15e.js",
     "runtime-main.js.map": "/DrainKU/static/js/runtime-main.14c9a15e.js.map",
     "static/css/2.47e06e2e.chunk.css": "/DrainKU/static/css/2.47e06e2e.chunk.css",
     "static/js/2.9420b9cc.chunk.js": "/DrainKU/static/js/2.9420b9cc.chunk.js",
     "static/js/2.9420b9cc.chunk.js.map": "/DrainKU/static/js/2.9420b9cc.chunk.js.map",
     "index.html": "/DrainKU/index.html",
-    "precache-manifest.493b74ff8ef88623434f67a8fe61e195.js": "/DrainKU/precache-manifest.493b74ff8ef88623434f67a8fe61e195.js",
+    "precache-manifest.9f3302a963554034fbfec21ca7060a5c.js": "/DrainKU/precache-manifest.9f3302a963554034fbfec21ca7060a5c.js",
     "service-worker.js": "/DrainKU/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/DrainKU/static/css/2.47e06e2e.chunk.css.map",
     "static/css/main.f530ed6a.chunk.css.map": "/DrainKU/static/css/main.f530ed6a.chunk.css.map",
@@ -26,6 +26,6 @@
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.9420b9cc.chunk.js",
     "static/css/main.f530ed6a.chunk.css",
-    "static/js/main.c1c1939d.chunk.js"
+    "static/js/main.c888fcfc.chunk.js"
   ]
 }

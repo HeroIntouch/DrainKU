@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "345d0f5836add7181cf4693abca6c8fe",
+    "revision": "32e3a6c59695d624513cde5305ca69ad",
     "url": "/DrainKU/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DrainKU/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "280294625cd7d9e67781",
+    "revision": "6b24196e672f893617fa",
     "url": "/DrainKU/static/css/main.f530ed6a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DrainKU/static/js/2.9420b9cc.chunk.js.LICENSE"
   },
   {
-    "revision": "280294625cd7d9e67781",
-    "url": "/DrainKU/static/js/main.c1c1939d.chunk.js"
+    "revision": "6b24196e672f893617fa",
+    "url": "/DrainKU/static/js/main.c888fcfc.chunk.js"
   },
   {
     "revision": "b39d215e35545ac25298",

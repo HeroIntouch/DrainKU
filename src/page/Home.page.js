@@ -8,8 +8,7 @@ import '../style/Home.page.css';
 
 const Home = (props) => {
     return(
-        // <div className='Home'>
-        <div>
+        <div className='Home'>
             <Result/>
             <CarouselAny/>
             {/* <Problem/> */}

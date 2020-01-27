@@ -1,0 +1,18 @@
+.CarouselAny {
+    width: 100%;
+    height: 100vh;
+}
+.slick-prev {
+    left: 0px;
+    z-index: 2;
+}
+.slick-next {
+    right: 0px;
+}
+.carouselProb {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    /* flex-direction: column; */
+    text-align: center;
+}
